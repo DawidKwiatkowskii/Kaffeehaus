@@ -1,0 +1,82 @@
+/* Allgemeines Styling */
+body {
+    font-family: Arial, sans-serif;
+    background-color: #f5f5f5;
+    margin: 0;
+    padding: 0;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+/* Header und Titel */
+header {
+    text-align: center;
+    margin-top: 20px;
+}
+
+.title {
+    font-family: 'Georgia', serif;
+    font-size: 2.5em;
+    color: #8B4513;
+    text-decoration: underline;
+}
+
+/* Sektion für das Menü */
+.menu {
+    width: 90%;
+    max-width: 800px;
+    background-color: #fff;
+    padding: 20px;
+    margin-top: 20px;
+    border-radius: 8px;
+    box-shadow: 0px 4px 8px rgba(0, 0, 0, 0.1);
+}
+
+.section-title {
+    font-family: 'Verdana', sans-serif;
+    font-size: 1.8em;
+    color: #A52A2A;
+    border-bottom: 2px solid #A52A2A;
+    padding-bottom: 5px;
+    margin-top: 20px;
+}
+
+/* Menü-Liste */
+.menu-list {
+    list-style-type: none;
+    padding: 0;
+}
+
+.menu-list li {
+    font-size: 1.2em;
+    margin: 10px 0;
+    display: flex;
+    justify-content: space-between;
+    text-align: left;
+}
+
+.item-name {
+    font-weight: bold;
+    font-style: italic;
+}
+
+.price {
+    color: #8B4513;
+    text-decoration: line-through;
+}
+
+.menu-list li:hover .price {
+    text-decoration: none;
+    font-weight: bold;
+    color: #A52A2A;
+}
+
+/* Zusätzliche Textausrichtung */
+.item-name {
+    text-align: left;
+}
+
+.price {
+    text-align: right;
+}
